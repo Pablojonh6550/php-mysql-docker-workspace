@@ -49,7 +49,7 @@ services:
 
   composer:
     image: composer:latest
-    container_name: nfe-ico-composer
+    container_name: composer
     volumes:
       - ./src:/var/www/html
     networks:
